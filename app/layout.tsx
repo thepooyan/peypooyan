@@ -11,7 +11,6 @@ const vazirmatn = Vazirmatn({
 export const metadata: Metadata = {
   title: "آزمایشگاه خاک و بتن پی پویان",
   description: "دارای پروانه اشتغال از وزارت راه و شهرسازی",
-    generator: 'v0.app'
 }
 
 export default function RootLayout({
