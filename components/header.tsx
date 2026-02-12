@@ -2,26 +2,24 @@ import Link from "next/link"
 import Logo from "./Logo"
 
 export default function Header() {
+
+  const headerLinks = [
+    {label: "خدمات", href: "services"},
+    {label: "تماس", href: "contact-us"},
+    {label: "چارت سازمانی", href: "about-us"},
+  ]
   return (
     <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border">
-      <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6 py-2 flex items-center justify-between">
         {/* Logo Placeholder */}
         <Logo/>
 
         {/* Navigation */}
         <nav className="hidden md:flex items-center gap-8">
-          <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-            خدمات
-          </Link>
-          <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-            درباره ما
-          </Link>
-          <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-            مقالات
-          </Link>
-          <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-            تماس
-          </Link>
+          {headerLinks.map(h => 
+          <Link href={h.href} className="text-sm text-accent-foreground hover:text-foreground transition-colors">
+              {h.label}
+          </Link>)}
         </nav>
 
         {/* CTA Button */}
