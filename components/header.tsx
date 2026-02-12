@@ -1,16 +1,12 @@
 import Link from "next/link"
+import Logo from "./Logo"
 
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border">
       <div className="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
         {/* Logo Placeholder */}
-        <div className="flex items-center gap-3">
-          <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center text-primary-foreground font-bold text-lg">
-            پ
-          </div>
-          <span className="font-semibold text-foreground hidden sm:inline">پی پویان</span>
-        </div>
+        <Logo/>
 
         {/* Navigation */}
         <nav className="hidden md:flex items-center gap-8">
