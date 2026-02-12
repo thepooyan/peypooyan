@@ -6,10 +6,10 @@ const Logo = () => {
   return (
     <Link className="flex items-center gap-2" href="/">
       <Image src="/logo.webp" alt="peypooyan's logo" width={size} height={size}/>
-      <h1
+      <p
         className="text-primary font-bold text-xl"
       >آزمایشگاه پی‌پویان
-      </h1>
+      </p>
     </Link>
   )
 }
