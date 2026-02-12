@@ -1,7 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Vazirmatn } from "next/font/google";
-import "./globals.css"
+import "@/styles/globals.css"
 
 const vazirmatn = Vazirmatn({
   variable: "--font-vazirmatn",
