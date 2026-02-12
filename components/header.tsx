@@ -17,7 +17,7 @@ export default function Header() {
           {headerLinks.map(h => 
           <Link
               href={h.href}
-              className="text-sm text-accent-foreground hover:text-foreground transition-colors"
+              className="text-sm font-semibold hover:underline text-accent-foreground hover:text-foreground transition-colors"
               key={h.label}
             >
               {h.label}
