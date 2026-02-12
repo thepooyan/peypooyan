@@ -7,11 +7,11 @@ interface p {
 }
 const layout = ({children}:p) => {
   return (
-    <main className="min-h-screen bg-background text-foreground">
+    <div className="min-h-screen bg-background text-foreground">
       <Header />
       {children}
       <Footer />
-    </main>
+    </div>
   )
 }
 
