@@ -12,3 +12,8 @@ Geotechnical Investigation Services — Your Company Name
 
 - meta desc for each page
 - h series for each page
+
+
+# pages to be made:
+- equipment
+- certificets

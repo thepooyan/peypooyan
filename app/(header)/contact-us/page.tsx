@@ -16,6 +16,10 @@ const contactus = () => {
         ایمیل: a@gmail.com
         <br/>
         کد پستی: 
+        <br/>
+        آدرس در گوگل مپس
+        <br/>
+        فکس
       </p>
 
     </div>
