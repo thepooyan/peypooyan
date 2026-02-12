@@ -10,7 +10,7 @@ export default function Header() {
   ]
   return (
     <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border">
-      <div className="max-w-7xl mx-auto px-6 py-2 flex items-center justify-between">
+      <div className="container px-6 py-2 flex items-center justify-between">
         <Logo/>
 
         <nav className="hidden md:flex items-center gap-8">
@@ -23,10 +23,6 @@ export default function Header() {
               {h.label}
           </Link>)}
         </nav>
-
-        <button className="px-6 py-2 bg-primary text-primary-foreground rounded-lg text-sm font-medium hover:bg-primary/90 transition-colors">
-          درخواست خدمت
-        </button>
       </div>
     </header>
   )

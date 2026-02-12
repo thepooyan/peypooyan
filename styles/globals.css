@@ -5,10 +5,13 @@ html {
   font-size: 14px;
 }
 
-@media (min-width: 48rem) {
+/* sm:40rem */
+@media (min-width: 40rem) {
   html {
     font-size: 20px;
   }
 }
 
-
+@utility container {
+  @apply max-w-5xl mx-auto;
+}

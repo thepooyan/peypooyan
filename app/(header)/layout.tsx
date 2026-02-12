@@ -9,7 +9,9 @@ const layout = ({children}:p) => {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <Header />
-      {children}
+      <div className="pt-10 container">
+        {children}
+      </div>
       <Footer />
     </div>
   )

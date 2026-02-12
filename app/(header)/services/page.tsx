@@ -35,7 +35,7 @@ const services: ServiceCategory[] = [
 
 export default function page() {
   return (
-    <main className="space-y-12 mx-10 mt-10">
+    <main className="space-y-12">
       <h1 className="text-3xl font-bold">
         خدمات آزمایشگاهی پی‌پویان
       </h1>

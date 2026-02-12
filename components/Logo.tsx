@@ -2,10 +2,12 @@ import Image from "next/image"
 import Link from "next/link";
 
 const Logo = () => {
-  const size = 100;
+  const size = 128;
   return (
     <Link className="flex items-center gap-2" href="/">
-      <Image src="/logo.webp" alt="peypooyan's logo" width={size} height={size}/>
+      <Image src="/logo.webp" alt="peypooyan's logo" width={size} height={size} 
+        className="w-18"
+      />
       <div className="space-y-1">
         <p className="text-primary font-bold text-xl">
           آزمایشگاه پی‌پویان
