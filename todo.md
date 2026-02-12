@@ -1,4 +1,7 @@
 - get Enamad
+- get photos
+- dad's resume
+- phone numbers
 
 
 seo todo:

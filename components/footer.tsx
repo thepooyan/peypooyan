@@ -1,3 +1,5 @@
+import Logo from "./Logo";
+
 export default function Footer() {
   return (
     <footer className="border-t border-border bg-card/30 mt-20">
@@ -6,9 +8,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-1 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center text-primary-foreground font-bold">
-                پ
-              </div>
+              <Logo/>
               <span className="font-semibold">پی پویان</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
