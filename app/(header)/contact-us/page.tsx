@@ -1,6 +1,8 @@
 const contactus = () => {
   return (
-    <div>contactus</div>
+    <div className="p-5">
+
+    </div>
   )
 }
 
