@@ -1,6 +1,6 @@
 const contactus = () => {
   return (
-    <div className="p-5">
+    <main className="p-5">
       <h1>تماس باما</h1>
       <p>
         نشانی دفتر: دامغان، میدان شاهچراغی
@@ -22,7 +22,7 @@ const contactus = () => {
         فکس
       </p>
 
-    </div>
+    </main>
   )
 }
 
